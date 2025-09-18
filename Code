@@ -1,3 +1,6 @@
+Уровень A. Базовый (выбрал задание номер 4: кнопка, которая меняет цвет формы)
+
+
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -30,4 +33,6 @@ namespace Erkebulan._210
        }
     }
 }
-      
+
+
+
