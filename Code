@@ -1,5 +1,4 @@
-Уровень A. Базовый (выбрал задание номер 4 из 17: кнопка, которая меняет цвет формы)
-
+Уровень A. Базовый (выбрал задание номер 13 из 17: кнопка, которая меняет размер окна)
 
 using System;
 using System.Collections.Generic;
@@ -20,17 +19,17 @@ namespace Erkebulan._210
          InitializeComponent();
       }
 
-      private void      
-      button1_Click(object sender,   
-      EventArgs e)
-      {
-         Random rnd = new Random();
-         this.BackColor = 
-      System.Drawing.Color.FromArgb(
-              rnd.Next(256),
-              rnd.Next(256),
-              rnd.Next(256));
-       }
+private void button1_Click(object sender, EventArgs e)
+{
+    if (this.Width == 800 && this.Height == 600)
+    {
+        this.Width = 1200;
+        this.Height = 800;
+    }
+    else
+    {
+        this.Width = 800;
+        this.Height = 600;
     }
 }
 
